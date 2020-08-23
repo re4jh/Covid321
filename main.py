@@ -5,13 +5,14 @@
 import csv
 import math
 import requests
+import time
 import os.path
 from cli_tables.cli_tables import *
 
 CSV_DATA_URL = 'https://pavelmayer.de/covid/risks/data.csv'
 DATA_FILE = 'data/data.csv'
 
-if not os.path.isfile(DATA_FILE) or os.path.getmtime(DATA_FILE) > 3600:
+if not os.path.isfile(DATA_FILE) or time.time() - os.path.getmtime(DATA_FILE) > 3600:
   CSV_DATA_FILE = requests.get(CSV_DATA_URL, allow_redirects=True)
   open(DATA_FILE, 'wb').write(CSV_DATA_FILE.content)
 L_TABLE = []
