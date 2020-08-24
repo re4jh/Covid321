@@ -34,5 +34,8 @@ with open(DATA_FILE) as csv_file:
                     weeks_left = str(float(log_to_fifty/log_rwk))
                 L_TABLE.append([row[1], row[16], row[23], weeks_left, str(float(weeks_left)*7)])
                 LINE_COUNT += 1
+            else:
+                L_TABLE.append([row[1], row[16], row[23], '∞', '∞'])
+
 
 print_table(L_TABLE, double_hline = True)
