@@ -31,11 +31,11 @@ with open(DATA_FILE) as csv_file:
                 log_rwk = math.log(float(row[23]))
                 weeks_left = '∞'
                 if log_rwk != 0:
-                    weeks_left = str(float(log_to_fifty/log_rwk))
-                L_TABLE.append([row[1], row[16], row[23], weeks_left, str(float(weeks_left)*7)])
+                    weeks_left = str(round(float(log_to_fifty/log_rwk), 4))
+                L_TABLE.append([row[1], str(round(float(row[16]), 3)), str(round(float(row[23]), 3)), weeks_left, str(round(float(weeks_left)*7, 2))])
                 LINE_COUNT += 1
             else:
-                L_TABLE.append([row[1], row[16], row[23], '∞', '∞'])
+                L_TABLE.append([row[1], str(round(float(row[16]), 3)), str(round(float(row[23]), 3)), '∞', '∞'])
 
 
 print_table(L_TABLE, double_hline = True)
