@@ -4,9 +4,9 @@
 
 import csv
 import math
-import requests
 import time
 import os.path
+import requests
 from cli_tables.cli_tables import *
 
 CSV_DATA_URL = 'https://pavelmayer.de/covid/risks/data.csv'
@@ -44,4 +44,4 @@ with open(DATA_FILE) as csv_file:
                 L_TABLE.append([row[1], str(round(float(row[16]), 3)), str(round(float(row[23]), 3)), '∞', '∞'])
 
 
-print_table(L_TABLE, double_hline = True)
+print_table(L_TABLE, double_hline=True)
