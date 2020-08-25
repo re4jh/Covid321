@@ -13,8 +13,14 @@ CSV_DATA_URL = 'https://pavelmayer.de/covid/risks/data.csv'
 DATA_FILE = 'data/data.csv'
 
 if not os.path.isfile(DATA_FILE) or time.time() - os.path.getmtime(DATA_FILE) > 3600:
-  CSV_DATA_FILE = requests.get(CSV_DATA_URL, allow_redirects=True)
-  open(DATA_FILE, 'wb').write(CSV_DATA_FILE.content)
+    CSV_DATA_FILE = requests.get(CSV_DATA_URL, allow_redirects=True)
+    if CSV_DATA_FILE.status_code == 200:
+        open(DATA_FILE, 'wb').write(CSV_DATA_FILE.content)
+
+if not os.path.isfile(DATA_FILE):
+    print('Could not download new csv-data and there is not even old data. I quit!')
+    sys.exit()
+
 L_TABLE = []
 
 with open(DATA_FILE) as csv_file:
