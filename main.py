@@ -29,9 +29,11 @@ with open(DATA_FILE) as csv_file:
     LINE_COUNT = 0
     for row in CSV_READER:
         if LINE_COUNT == 0:
-            L_TABLE.append(['Name', 'Fälle/100k', 'RwK', '50inW', '50inD'])
+            L_TABLE.append(['Name', 'Bundesland', 'Fälle/100k', 'RwK', '50inW', '50inD'])
             LINE_COUNT += 1
         else:
+            if row[1] == row[10]:
+                row[1] = 'B ' + row[1]
             if float(row[16]) > 0 and float(row[23]) > 1:
                 to_fifty = float(50 / float(row[16]))
                 log_to_fifty = math.log(to_fifty)
@@ -39,9 +41,9 @@ with open(DATA_FILE) as csv_file:
                 weeks_left = '∞'
                 if log_rwk != 0:
                     weeks_left = str(round(float(log_to_fifty / log_rwk), 4))
-                L_TABLE.append([row[1], str(round(float(row[16]), 3)), str(round(float(row[23]), 3)), weeks_left, str(round(float(weeks_left) * 7, 2))])
+                L_TABLE.append([row[1], row[10], str(round(float(row[16]), 3)), str(round(float(row[23]), 3)), weeks_left, str(round(float(weeks_left) * 7, 2))])
                 LINE_COUNT += 1
             else:
-                L_TABLE.append([row[1], str(round(float(row[16]), 3)), str(round(float(row[23]), 3)), '∞', '∞'])
+                L_TABLE.append([row[1], row[10], str(round(float(row[16]), 3)), str(round(float(row[23]), 3)), '∞', '∞'])
 
 print(tabulate(L_TABLE, tablefmt="psql", headers="firstrow"))
