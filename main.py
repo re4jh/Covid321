@@ -44,7 +44,7 @@ with open(DATA_FILE) as csv_file:
         else:
             if row[1] == row[10]:
                 row[1] = 'B ' + row[1]
-            if (float(row[16]) > 0 and float(row[23]) > 1) or (float(row[16]) > args.treshold and float(row[23]) != 1):
+            if (float(row[16]) > 0 and float(row[23]) > 1) or (float(row[16]) > float(args.treshold) and float(row[23]) != 1):
                 to_treshold = float(float(args.treshold) / float(row[16]))
                 log_to_treshold = math.log(to_treshold)
                 log_rwk = math.log(float(row[23]))
