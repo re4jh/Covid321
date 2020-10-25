@@ -36,9 +36,10 @@ L_TABLE = []
 with open(DATA_FILE) as csv_file:
     CSV_READER = csv.reader(csv_file, delimiter=',')
     LINE_COUNT = 0
+    RANKING = {}
     for row in CSV_READER:
         if LINE_COUNT == 0:
-            L_TABLE.append(['Name', 'Bundesland', 'Fälle/100k', 'RwK', str(args.treshold) + 'inW', str(args.treshold) + 'inD'])
+            L_TABLE.append(['Ranking C:S', 'Name', 'Bundesland', 'Fälle/100k', 'RwK', str(args.treshold) + 'inW', str(args.treshold) + 'inD'])
             LINE_COUNT += 1
         else:
             if row[1] == row[10]:
@@ -53,11 +54,18 @@ with open(DATA_FILE) as csv_file:
                     extra_prefix = '--'
                 if log_rwk != 0:
                     weeks_left = str(round(float(log_to_treshold / log_rwk), 4))
+
+                if row[10] in RANKING:
+                    RANKING[row[10]] += 1
+                else:
+                    RANKING[row[10]] = 1
+
                 if float(row[16])>=float(args.cases) and float(row[23])>=float(args.repro):
-                    L_TABLE.append([row[1], row[10], str(round(float(row[16]), 3)), str(round(float(row[23]), 3)), extra_prefix + weeks_left, extra_prefix + str(round(float(weeks_left) * 7, 2))])
-                LINE_COUNT += 1
+                    L_TABLE.append([str(row[0]) + ':' + str(RANKING[row[10]]), row[1], row[10], str(round(float(row[16]), 3)), str(round(float(row[23]), 3)), extra_prefix + weeks_left, extra_prefix + str(round(float(weeks_left) * 7, 2))])
             else:
                 if float(row[16])>=float(args.cases) and float(row[23])>=float(args.repro):
-                    L_TABLE.append([row[1], row[10], str(round(float(row[16]), 3)), str(round(float(row[23]), 3)), '∞', '∞'])
+                    L_TABLE.append([str(row[0]) + ':' + str(RANKING[row[10]]), row[1], row[10], str(round(float(row[16]), 3)), str(round(float(row[23]), 3)), '∞', '∞'])
+
+                LINE_COUNT += 1
 
 print(tabulate(L_TABLE, tablefmt="psql", headers="firstrow"))
