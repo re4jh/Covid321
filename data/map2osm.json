@@ -2,47 +2,47 @@
   "Baden-Württemberg": {
     "name": "Baden-Württemberg",
     "type": "B",
-    "osm": null
+    "osm":  62611
   },
   "Bayern": {
     "name": "Bayern",
     "type": "B",
-    "osm": null
+    "osm":  2145268
   },
   "Berlin": {
     "name": "Berlin",
     "type": "B",
-    "osm": null
+    "osm":  62422
   },
   "Brandenburg": {
     "name": "Brandenburg",
     "type": "B",
-    "osm": null
+    "osm":  62504
   },
   "Bremen": {
     "name": "Bremen",
     "type": "B",
-    "osm": null
+    "osm": 62718
   },
   "Deutschland": {
     "name": "Deutschland",
     "type": "BR",
-    "osm": null
+    "osm":  51477
   },
   "Hamburg": {
     "name": "Hamburg",
     "type": "B",
-    "osm": null
+    "osm":  62782
   },
   "Hessen": {
     "name": "Hessen",
     "type": "B",
-    "osm": null
+    "osm":  62650
   },
   "LK Ahrweiler": {
     "name": "Ahrweiler",
     "type": "LK",
-    "osm": null
+    "osm": 62623
   },
   "LK Aichach-Friedberg": {
     "name": "Aichach-Friedberg",
@@ -117,102 +117,102 @@
   "LK Bad Dürkheim": {
     "name": "Bad Dürkheim",
     "type": "LK",
-    "osm": null
+    "osm": 62454
   },
   "LK Bad Kissingen": {
     "name": "Bad Kissingen",
     "type": "LK",
-    "osm": null
+    "osm": 62406
   },
   "LK Bad Kreuznach": {
     "name": "Bad Kreuznach",
     "type": "LK",
-    "osm": null
+    "osm": 62741
   },
   "LK Bad Tölz-Wolfratshausen": {
     "name": "Bad Tölz-Wolfratshausen",
     "type": "LK",
-    "osm": null
+    "osm": 62472
   },
   "LK Bamberg": {
     "name": "Bamberg",
     "type": "LK",
-    "osm": null
+    "osm": 62627
   },
   "LK Barnim": {
     "name": "Barnim",
     "type": "LK",
-    "osm": null
+    "osm": 62553
   },
   "LK Bautzen": {
     "name": "Bautzen",
     "type": "LK",
-    "osm": null
+    "osm": 62384
   },
   "LK Bayreuth": {
     "name": "Bayreuth",
     "type": "LK",
-    "osm": null
+    "osm": 62378
   },
   "LK Berchtesgadener Land": {
     "name": "Berchtesgadener Land",
     "type": "LK",
-    "osm": null
+    "osm": 62712
   },
   "LK Bergstraße": {
     "name": "Bergstraße",
     "type": "LK",
-    "osm": null
+    "osm": 62730
   },
   "LK Bernkastel-Wittlich": {
     "name": "Bernkastel-Wittlich",
     "type": "LK",
-    "osm": null
+    "osm": 62668
   },
   "LK Biberach": {
     "name": "Biberach",
     "type": "LK",
-    "osm": null
+    "osm": 2804156
   },
   "LK Birkenfeld": {
     "name": "Birkenfeld",
     "type": "LK",
-    "osm": null
+    "osm": 62679
   },
   "LK Bitburg-Prüm": {
     "name": "Bitburg-Prüm",
     "type": "LK",
-    "osm": null
+    "osm": 62584
   },
   "LK Bodenseekreis": {
     "name": "Bodenseekreis",
     "type": "LK",
-    "osm": null
+    "osm": 2806623
   },
   "LK Borken": {
     "name": "Borken",
     "type": "LK",
-    "osm": null
+    "osm": 62606
   },
   "LK Breisgau-Hochschwarzwald": {
     "name": "Breisgau-Hochschwarzwald",
     "type": "LK",
-    "osm": null
+    "osm": 1946367
   },
   "LK Burgenlandkreis": {
     "name": "Burgenlandkreis",
     "type": "LK",
-    "osm": null
+    "osm": 62639
   },
   "LK Böblingen": {
     "name": "Böblingen",
     "type": "LK",
-    "osm": null
+    "osm": 62721
   },
   "LK Börde": {
     "name": "Börde",
     "type": "LK",
-    "osm": null
+    "osm": 62359
   },
   "LK Calw": {
     "name": "Calw",
@@ -222,67 +222,67 @@
   "LK Celle": {
     "name": "Celle",
     "type": "LK",
-    "osm": null
+    "osm": 62608
   },
   "LK Cham": {
     "name": "Cham",
     "type": "LK",
-    "osm": null
+    "osm": 62548
   },
   "LK Cloppenburg": {
     "name": "Cloppenburg",
     "type": "LK",
-    "osm": null
+    "osm": 62597
   },
   "LK Coburg": {
     "name": "Coburg",
     "type": "LK",
-    "osm": null
+    "osm": 62561
   },
   "LK Cochem-Zell": {
     "name": "Cochem-Zell",
     "type": "LK",
-    "osm": null
+    "osm": 62569
   },
   "LK Coesfeld": {
     "name": "Coesfeld",
     "type": "LK",
-    "osm": null
+    "osm": 62779
   },
   "LK Cuxhaven": {
     "name": "Cuxhaven",
     "type": "LK",
-    "osm": null
+    "osm": 3500495
   },
   "LK Dachau": {
     "name": "Dachau",
     "type": "LK",
-    "osm": null
+    "osm": 62556
   },
   "LK Dahme-Spreewald": {
     "name": "Dahme-Spreewald",
     "type": "LK",
-    "osm": null
+    "osm": 62376
   },
   "LK Darmstadt-Dieburg": {
     "name": "Darmstadt-Dieburg",
     "type": "LK",
-    "osm": null
+    "osm": 62704
   },
   "LK Deggendorf": {
     "name": "Deggendorf",
     "type": "LK",
-    "osm": null
+    "osm": 62711
   },
   "LK Diepholz": {
     "name": "Diepholz",
     "type": "LK",
-    "osm": null
+    "osm": 62426
   },
   "LK Dillingen a.d.Donau": {
     "name": "Dillingen a.d.Donau",
     "type": "LK",
-    "osm": null
+    "osm": 62521
   },
   "LK Dingolfing-Landau": {
     "name": "Dingolfing-Landau",
@@ -292,437 +292,437 @@
   "LK Dithmarschen": {
     "name": "Dithmarschen",
     "type": "LK",
-    "osm": null
+    "osm": 62707
   },
   "LK Donau-Ries": {
     "name": "Donau-Ries",
     "type": "LK",
-    "osm": null
+    "osm": 62389
   },
   "LK Donnersbergkreis": {
     "name": "Donnersbergkreis",
     "type": "LK",
-    "osm": null
+    "osm": 62737
   },
   "LK Düren": {
     "name": "Düren",
     "type": "LK",
-    "osm": null
+    "osm": 62452
   },
   "LK Ebersberg": {
     "name": "Ebersberg",
     "type": "LK",
-    "osm": null
+    "osm": 2168230
   },
   "LK Eichsfeld": {
     "name": "Eichsfeld",
     "type": "LK",
-    "osm": null
+    "osm": 62500
   },
   "LK Eichstätt": {
     "name": "Eichstätt",
     "type": "LK",
-    "osm": null
+    "osm": 62684
   },
   "LK Elbe-Elster": {
     "name": "Elbe-Elster",
     "type": "LK",
-    "osm": null
+    "osm": 62505
   },
   "LK Emmendingen": {
     "name": "Emmendingen",
     "type": "LK",
-    "osm": null
+    "osm": 1946117
   },
   "LK Emsland": {
     "name": "Emsland",
     "type": "LK",
-    "osm": null
+    "osm": 62540
   },
   "LK Ennepe-Ruhr-Kreis": {
     "name": "Ennepe-Ruhr-Kreis",
     "type": "LK",
-    "osm": null
+    "osm": 1829066
   },
   "LK Enzkreis": {
     "name": "Enzkreis",
     "type": "LK",
-    "osm": null
+    "osm": 62723
   },
   "LK Erding": {
     "name": "Erding",
     "type": "LK",
-    "osm": null
+    "osm": 62356
   },
   "LK Erlangen-Höchstadt": {
     "name": "Erlangen-Höchstadt",
     "type": "LK",
-    "osm": null
+    "osm": 62448
   },
   "LK Erzgebirgskreis": {
     "name": "Erzgebirgskreis",
     "type": "LK",
-    "osm": null
+    "osm": 62427
   },
   "LK Esslingen": {
     "name": "Esslingen",
     "type": "LK",
-    "osm": null
+    "osm": 2812851
   },
   "LK Euskirchen": {
     "name": "Euskirchen",
     "type": "LK",
-    "osm": null
+    "osm": 62555
   },
   "LK Forchheim": {
     "name": "Forchheim",
     "type": "LK",
-    "osm": null
+    "osm": 62687
   },
   "LK Freising": {
     "name": "Freising",
     "type": "LK",
-    "osm": null
+    "osm": 62633
   },
   "LK Freudenstadt": {
     "name": "Freudenstadt",
     "type": "LK",
-    "osm": null
+    "osm": 62354
   },
   "LK Freyung-Grafenau": {
     "name": "Freyung-Grafenau",
     "type": "LK",
-    "osm": null
+    "osm": 2083466
   },
   "LK Friesland": {
     "name": "Friesland",
     "type": "LK",
-    "osm": null
+    "osm": 62633
   },
   "LK Fulda": {
     "name": "Fulda",
     "type": "LK",
-    "osm": null
+    "osm": 62700
   },
   "LK Fürstenfeldbruck": {
     "name": "Fürstenfeldbruck",
     "type": "LK",
-    "osm": null
+    "osm": 62595
   },
   "LK Fürth": {
     "name": "Fürth",
     "type": "LK",
-    "osm": null
+    "osm": 62778
   },
   "LK Garmisch-Partenkirchen": {
     "name": "Garmisch-Partenkirchen",
     "type": "LK",
-    "osm": null
+    "osm": 62726
   },
   "LK Germersheim": {
     "name": "Germersheim",
     "type": "LK",
-    "osm": null
+    "osm": 62698
   },
   "LK Gießen": {
     "name": "Gießen",
     "type": "LK",
-    "osm": null
+    "osm": 62692
   },
   "LK Gifhorn": {
     "name": "Gifhorn",
     "type": "LK",
-    "osm": null
+    "osm": 62647
   },
   "LK Goslar": {
     "name": "Goslar",
     "type": "LK",
-    "osm": null
+    "osm": 62669
   },
   "LK Gotha": {
     "name": "Gotha",
     "type": "LK",
-    "osm": null
+    "osm": 62468
   },
   "LK Grafschaft Bentheim": {
     "name": "Grafschaft Bentheim",
     "type": "LK",
-    "osm": null
+    "osm": 62550
   },
   "LK Greiz": {
     "name": "Greiz",
     "type": "LK",
-    "osm": null
+    "osm": 62445
   },
   "LK Groß-Gerau": {
     "name": "Groß-Gerau",
     "type": "LK",
-    "osm": null
+    "osm": 62656
   },
   "LK Göppingen": {
     "name": "Göppingen",
     "type": "LK",
-    "osm": null
+    "osm": 2812852
   },
   "LK Görlitz": {
     "name": "Görlitz",
     "type": "LK",
-    "osm": null
+    "osm": 62345
   },
   "LK Göttingen": {
     "name": "Göttingen",
     "type": "LK",
-    "osm": null
+    "osm": 6679859
   },
   "LK Günzburg": {
     "name": "Günzburg",
     "type": "LK",
-    "osm": null
+    "osm": 62664
   },
   "LK Gütersloh": {
     "name": "Gütersloh",
     "type": "LK",
-    "osm": null
+    "osm": 62379
   },
   "LK Hameln-Pyrmont": {
     "name": "Hameln-Pyrmont",
     "type": "LK",
-    "osm": null
+    "osm": 62766
   },
   "LK Harburg": {
     "name": "Harburg",
     "type": "LK",
-    "osm": null
+    "osm": 2083497
   },
   "LK Harz": {
     "name": "Harz",
     "type": "LK",
-    "osm": null
+    "osm": 62429
   },
   "LK Havelland": {
     "name": "Havelland",
     "type": "LK",
-    "osm": null
+    "osm": 62413
   },
   "LK Haßberge": {
     "name": "Haßberge",
     "type": "LK",
-    "osm": null
+    "osm": 62520
   },
   "LK Heidekreis": {
     "name": "Heidekreis",
     "type": "LK",
-    "osm": null
+    "osm": 62674
   },
   "LK Heidenheim": {
     "name": "Heidenheim",
     "type": "LK",
-    "osm": null
+    "osm": 2812850
   },
   "LK Heilbronn": {
     "name": "Heilbronn",
     "type": "LK",
-    "osm": null
+    "osm": 62750
   },
   "LK Heinsberg": {
     "name": "Heinsberg",
     "type": "LK",
-    "osm": null
+    "osm": 62767
   },
   "LK Helmstedt": {
     "name": "Helmstedt",
     "type": "LK",
-    "osm": null
+    "osm": 62416
   },
   "LK Herford": {
     "name": "Herford",
     "type": "LK",
-    "osm": null
+    "osm": 62480
   },
   "LK Hersfeld-Rotenburg": {
     "name": "Hersfeld-Rotenburg",
     "type": "LK",
-    "osm": null
+    "osm": 62637
   },
   "LK Herzogtum Lauenburg": {
     "name": "Herzogtum Lauenburg",
     "type": "LK",
-    "osm": null
+    "osm": 62703
   },
   "LK Hildburghausen": {
     "name": "Hildburghausen",
     "type": "LK",
-    "osm": null
+    "osm": 62365
   },
   "LK Hildesheim": {
     "name": "Hildesheim",
     "type": "LK",
-    "osm": null
+    "osm": 62742
   },
   "LK Hochsauerlandkreis": {
     "name": "Hochsauerlandkreis",
     "type": "LK",
-    "osm": null
+    "osm": 62402
   },
   "LK Hochtaunuskreis": {
     "name": "Hochtaunuskreis",
     "type": "LK",
-    "osm": null
+    "osm": 62566
   },
   "LK Hof": {
     "name": "Hof",
     "type": "LK",
-    "osm": null
+    "osm": 2145179
   },
   "LK Hohenlohekreis": {
     "name": "Hohenlohekreis",
     "type": "LK",
-    "osm": null
+    "osm": 62394
   },
   "LK Holzminden": {
     "name": "Holzminden",
     "type": "LK",
-    "osm": null
+    "osm": 62510
   },
   "LK Höxter": {
     "name": "Höxter",
     "type": "LK",
-    "osm": null
+    "osm": 62524
   },
   "LK Ilm-Kreis": {
     "name": "Ilm-Kreis",
     "type": "LK",
-    "osm": null
+    "osm": 62419
   },
   "LK Jerichower Land": {
     "name": "Jerichower Land",
     "type": "LK",
-    "osm": null
+    "osm": 62477
   },
   "LK Kaiserslautern": {
     "name": "Kaiserslautern",
     "type": "LK",
-    "osm": null
+    "osm": 62451
   },
   "LK Karlsruhe": {
     "name": "Karlsruhe",
     "type": "LK",
-    "osm": null
+    "osm": 62393
   },
   "LK Kassel": {
     "name": "Kassel",
     "type": "LK",
-    "osm": null
+    "osm": 62401
   },
   "LK Kelheim": {
     "name": "Kelheim",
     "type": "LK",
-    "osm": null
+    "osm": 62614
   },
   "LK Kitzingen": {
     "name": "Kitzingen",
     "type": "LK",
-    "osm": null
+    "osm": 62457
   },
   "LK Kleve": {
     "name": "Kleve",
     "type": "LK",
-    "osm": null
+    "osm": 62476
   },
   "LK Konstanz": {
     "name": "Konstanz",
     "type": "LK",
-    "osm": null
+    "osm": 62603
   },
   "LK Kronach": {
     "name": "Kronach",
     "type": "LK",
-    "osm": null
+    "osm": 62383
   },
   "LK Kulmbach": {
     "name": "Kulmbach",
     "type": "LK",
-    "osm": null
+    "osm": 2145178
   },
   "LK Kusel": {
     "name": "Kusel",
     "type": "LK",
-    "osm": null
+    "osm": 62367
   },
   "LK Kyffhäuserkreis": {
     "name": "Kyffhäuserkreis",
     "type": "LK",
-    "osm": null
+    "osm": 62604
   },
   "LK Lahn-Dill-Kreis": {
     "name": "Lahn-Dill-Kreis",
     "type": "LK",
-    "osm": null
+    "osm": 62368
   },
   "LK Landsberg a.Lech": {
     "name": "Landsberg a.Lech",
     "type": "LK",
-    "osm": null
+    "osm": 62498
   },
   "LK Landshut": {
     "name": "Landshut",
     "type": "LK",
-    "osm": null
+    "osm": 62657
   },
   "LK Leer": {
     "name": "Leer",
     "type": "LK",
-    "osm": null
+    "osm": 62567
   },
   "LK Leipzig": {
     "name": "Leipzig",
     "type": "LK",
-    "osm": null
+    "osm": 62434
   },
   "LK Lichtenfels": {
     "name": "Lichtenfels",
     "type": "LK",
-    "osm": null
+    "osm": 62515
   },
   "LK Limburg-Weilburg": {
     "name": "Limburg-Weilburg",
     "type": "LK",
-    "osm": null
+    "osm": 62585
   },
   "LK Lindau": {
     "name": "Lindau",
     "type": "LK",
-    "osm": null
+    "osm": 62672
   },
   "LK Lippe": {
     "name": "Lippe",
     "type": "LK",
-    "osm": null
+    "osm": 62483
   },
   "LK Ludwigsburg": {
     "name": "Ludwigsburg",
     "type": "LK",
-    "osm": null
+    "osm": 62536
   },
   "LK Ludwigslust-Parchim": {
     "name": "Ludwigslust-Parchim",
     "type": "LK",
-    "osm": null
+    "osm": 1739381
   },
   "LK Lörrach": {
     "name": "Lörrach",
     "type": "LK",
-    "osm": null
+    "osm": 62587
   },
   "LK Lüchow-Dannenberg": {
     "name": "Lüchow-Dannenberg",
     "type": "LK",
-    "osm": null
+    "osm": 62662
   },
   "LK Lüneburg": {
     "name": "Lüneburg",
     "type": "LK",
-    "osm": null
+    "osm": 2084746
   },
   "LK Main-Kinzig-Kreis": {
     "name": "Main-Kinzig-Kreis",
@@ -732,7 +732,7 @@
   "LK Main-Spessart": {
     "name": "Main-Spessart",
     "type": "LK",
-    "osm": null
+    "osm": 62641
   },
   "LK Main-Tauber-Kreis": {
     "name": "Main-Tauber-Kreis",
@@ -747,72 +747,72 @@
   "LK Mainz-Bingen": {
     "name": "Mainz-Bingen",
     "type": "LK",
-    "osm": null
+    "osm": 62632
   },
   "LK Mansfeld-Südharz": {
     "name": "Mansfeld-Südharz",
     "type": "LK",
-    "osm": null
+    "osm": 62681
   },
   "LK Marburg-Biedenkopf": {
     "name": "Marburg-Biedenkopf",
     "type": "LK",
-    "osm": null
+    "osm": 62643
   },
   "LK Mayen-Koblenz": {
     "name": "Mayen-Koblenz",
     "type": "LK",
-    "osm": null
+    "osm": 62572
   },
   "LK Mecklenburgische Seenplatte": {
     "name": "Mecklenburgische Seenplatte",
     "type": "LK",
-    "osm": null
+    "osm": 1739376
   },
   "LK Meißen": {
     "name": "Meißen",
     "type": "LK",
-    "osm": null
+    "osm": 62511
   },
   "LK Merzig-Wadern": {
     "name": "Merzig-Wadern",
     "type": "LK",
-    "osm": null
+    "osm": 62387
   },
   "LK Mettmann": {
     "name": "Mettmann",
     "type": "LK",
-    "osm": null
+    "osm": 62423
   },
   "LK Miesbach": {
     "name": "Miesbach",
     "type": "LK",
-    "osm": null
+    "osm": 2168231
   },
   "LK Miltenberg": {
     "name": "Miltenberg",
     "type": "LK",
-    "osm": null
+    "osm": 62404
   },
   "LK Minden-Lübbecke": {
     "name": "Minden-Lübbecke",
     "type": "LK",
-    "osm": null
+    "osm": 62358
   },
   "LK Mittelsachsen": {
     "name": "Mittelsachsen",
     "type": "LK",
-    "osm": null
+    "osm": 62350
   },
   "LK Märkisch-Oderland": {
     "name": "Märkisch-Oderland",
     "type": "LK",
-    "osm": null
+    "osm": 318248
   },
   "LK Märkischer Kreis": {
     "name": "Märkischer Kreis",
     "type": "LK",
-    "osm": null
+    "osm": 1831015
   },
   "LK Mühldorf a.Inn": {
     "name": "Mühldorf a.Inn",
@@ -1501,18 +1501,18 @@
   },
   "Mecklenburg-Vorpommern": {
     "name": "Mecklenburg-Vorpommern",
-    "type": "LK",
-    "osm": null
+    "type": "B",
+    "osm":  28322
   },
   "Niedersachsen": {
     "name": "Niedersachsen",
     "type": "B",
-    "osm": null
+    "osm":  62771
   },
   "Nordrhein-Westfalen": {
     "name": "Nordrhein-Westfalen",
     "type": "B",
-    "osm": null
+    "osm":  62761
   },
   "Region Hannover": {
     "name": "Region Hannover",
@@ -1522,7 +1522,7 @@
   "Rheinland-Pfalz": {
     "name": "Rheinland-Pfalz",
     "type": "B",
-    "osm": null
+    "osm":  62341
   },
   "SK Amberg": {
     "name": "Amberg",
@@ -2117,31 +2117,31 @@
   "Saarland": {
     "name": "Saarland",
     "type": "B",
-    "osm": null
+    "osm":  62372
   },
   "Sachsen": {
     "name": "Sachsen",
     "type": "B",
-    "osm": null
+    "osm":  62467
   },
   "Sachsen-Anhalt": {
     "name": "Sachsen-Anhalt",
     "type": "B",
-    "osm": null
+    "osm":  62607
   },
   "Schleswig-Holstein": {
     "name": "Schleswig-Holstein",
     "type": "B",
-    "osm": null
+    "osm":  51529
   },
   "StadtRegion Aachen": {
     "name": "Aachen",
     "type": "LSK",
-    "osm": null
+    "osm":  62665
   },
   "Thüringen": {
     "name": "Thüringen",
     "type": "B",
-    "osm": null
+    "osm":  62366
   }
 }
